@@ -29,10 +29,11 @@ body {
   padding-top: 5px;
   padding-bottom: 5px;
   height: 100%;
+  display: flex;
 }
 
 .logoKLN {
-  float: left;
+  /*float: left;*/
   width: 50%;
   background-color: transparent;
   color: white;
@@ -49,6 +50,8 @@ body {
   margin-right: 10px;
   color: white;
   font-family: "Rubik", sans-serif;
+
+  float: right;
 }
 
 .inicReg:hover {
@@ -63,7 +66,8 @@ body {
 }
 
 .der {
-  text-align: end;
+  /*text-align: end;*/
+  width: 50%;
 }
 
 #bienvenida {
