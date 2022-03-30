@@ -26,7 +26,6 @@ body {
   margin-right: auto;
   vertical-align: middle;
   background-color: transparent;
-  position: relative;
   padding-top: 5px;
   padding-bottom: 5px;
   height: 100%;
@@ -87,8 +86,43 @@ body {
   justify-content: center;
 }
 
+.centrarX2 {
+  text-align: center;
+}
+
 .textBienvenida {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   color: rgb(255, 255, 255);
+}
+
+.centrarCont {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: middle;
+  background-color: transparent;
+}
+
+.beneficiosCarac {
+  width: 50%;
+  text-align: center;
+}
+
+#beneficios{
+  background-image: url("../IMG/PilotoBienvenida.jpg");
+  width: 100%;
+  height: 90%;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.centarBene{
+  display: flex;
+}
+
+.alinearLista{
+  text-align: left;
+	display: inline-block;
 }
