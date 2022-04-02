@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>KLN-RUFUS</title>
   <link rel="stylesheet" href="CSS/style.css" />
+  <script src="JS/index.js"></script>
 </head>
 
 <body>
@@ -14,8 +15,8 @@
     <div class="cabeMid">
       <nav class="logoKLN">KLN-RUFUS</nav>
       <div class="der">
-        <button class="inicReg">Iniciar Sesion</button>
-        <button class="inicReg">Registrarse</button>
+        <button class="inicReg" id="IniciarSesion">Iniciar Sesion</button>
+        <button class="inicReg" id="Registrarse">Registrarse</button>
       </div>
     </div>
   </header>
@@ -61,7 +62,7 @@
 
   <div style="height: 100%; width: 50%; background-color: aquamarine;"></div>
 
-  <div class="mascDarkLogReg">
+  <div class="mascDarkLogReg" id="ContenedorIniciarSesion">
     <div class="centrarMidWinLogin">
       <h1 class="h1Login">Login</h1>
       <form action="#" method="get">
@@ -79,7 +80,7 @@
     </div>
   </div>
 
-  <div class="mascDarkLogReg2">
+  <div class="mascDarkLogReg2" id="ContenedorRegistrar">
     <div class="centrarMidWinRegistro">
       <h1 class="h1Login">Registro</h1>
         <form action="#" method="get">
