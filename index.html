@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>KLN-RUFUS</title>
   <link rel="stylesheet" href="CSS/style.css" />
+  <script src="JS/index.js"></script>
 </head>
 
 <body>
@@ -14,8 +15,8 @@
     <div class="cabeMid">
       <nav class="logoKLN">KLN-RUFUS</nav>
       <div class="der">
-        <button class="inicReg">Iniciar Sesion</button>
-        <button class="inicReg">Registrarse</button>
+        <button class="inicReg" id="IniciarSesion">Iniciar Sesion</button>
+        <button class="inicReg" id="Registrarse">Registrarse</button>
       </div>
     </div>
   </header>
@@ -61,10 +62,11 @@
 
   <div style="height: 100%; width: 50%; background-color: aquamarine;"></div>
 
-  <div class="mascDarkLogReg">
+  <div class="mascDarkLogReg" id="ContenedorIniciarSesion">
     <div class="centrarMidWinLogin">
       <h1 class="h1Login">Login</h1>
-      <form action="#" method="get" autocomplete="off">
+
+      <form action="#" method="get" id="Formini">
         <label for="username" class="labelLogin">Usuario</label>
         <input type="text" name="username" id="username" placeholder="Ingresa tu nombre de usuario" class="inpUsr">
 
@@ -76,6 +78,33 @@
         <a href="#" class="linkLogin">¿Olvidaste tu contraseña?</a><br>
         <a href="#" class="linkLogin">¿No tienes una cuenta?</a>
       </form>
+    </div>
+  </div>
+
+  <div class="mascDarkLogReg2" id="ContenedorRegistrar">
+    <div class="centrarMidWinRegistro">
+      <h1 class="h1Login">Registro</h1>
+        <form action="#" method="get" id="Formregi">
+            <label for="nombre" class="labelLogin">Nombre</label>
+            <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" class="inpUsr">
+
+            <label for="Apa" class="labelLogin">Apellido Paterno</label>
+            <input type="text" name="Apa" id="Apa" placeholder="Ingresa tu apellido paterno" class="inpUsr">
+
+            <label for="Ama" class="labelLogin">Apellido Materno</label>
+            <input type="text" name="Ama" id="Ama" placeholder="Ingresa tu apellido materno" class="inpUsr">
+
+            <label for="Email" class="labelLogin">Email </label>
+            <input type="email" name="Email" id="Email" placeholder="Ingresa tu email" class="inpUsr">
+
+            <label for="Password" class="labelLogin">Contraseña</label>
+            <input type="password" name="Password" id="Password" placeholder="Ingresa tu password" class="inpPass">
+
+            <input type="submit" value="Registrar" class="inpSubm">
+
+            <p><a href="#" class="linkLogin">Terminos y Condiciones</a></p><br>
+            <p><a href="#" class="linkLogin">¿Ya tienes cuenta?</a></p>
+        </form>
     </div>
   </div>
 
