@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vuelos</title>
     <link rel="stylesheet" href="CSS/vuelos.css" />
+    <script src="JS/vuelos.js"></script>
 </head>
 <body>
     <header class="cabecera">
@@ -23,7 +24,7 @@
         </div>
     </header>
 
-    <div class="contenedor">
+    <div class="contenedor" id="contenedorvuelos1">
 
         <div class="filtro">
             <form action="#">
@@ -36,61 +37,137 @@
 
         <div class="vuelos">
             <table id="tablevuelos">
-                <tr>
-                  <th>Aerolinea</th>
-                  <th>Asientos<br>Disponibles</th>
-                  <th>Hora de<br>salida</th>
-                  <th>Hora de<br>llegada</th>
-                  <th>Precio por<br>boleto</th>
-                </tr>
-                <tr>
-                  <td>Alfreds Futterkiste</td>
-                  <td>Maria Anders</td>
-                  <td>Germany</td>
-                  <td>Maria Anders</td>
-                  <td>Germany</td>
-                </tr>
-                <tr>
-                  <td>Centro comercial Moctezuma</td>
-                  <td>Francisco Chang</td>
-                  <td>Mexico</td>
-                  <td>Francisco Chang</td>
-                  <td>Mexico</td>
-                </tr>
-                <tr>
-                    <td>Alfreds Futterkiste</td>
-                    <td>Maria Anders</td>
-                    <td>Germany</td>
-                    <td>Maria Anders</td>
-                    <td>Germany</td>
-                </tr>
-                <tr>
-                    <td>Centro comercial Moctezuma</td>
-                    <td>Francisco Chang</td>
-                    <td>Mexico</td>
-                    <td>Francisco Chang</td>
-                    <td>Mexico</td>
-                </tr>
-                <tr>
-                    <td>Alfreds Futterkiste</td>
-                    <td>Maria Anders</td>
-                    <td>Germany</td>
-                    <td>Maria Anders</td>
-                    <td>Germany</td>
-                </tr>
-                <tr>
-                    <td>Centro comercial Moctezuma</td>
-                    <td>Francisco Chang</td>
-                    <td>Mexico</td>
-                    <td>Francisco Chang</td>
-                    <td>Mexico</td>
-                </tr>
+                <thead>
+                    <tr>
+                        <th>Aerolinea</th>
+                        <th>Asientos<br>Disponibles</th>
+                        <th>Hora de<br>salida</th>
+                        <th>Hora de<br>llegada</th>
+                        <th>Precio por<br>boleto</th>
+                      </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>Alfreds Futterkiste</td>
+                        <td>Maria Anders</td>
+                        <td>Germany</td>
+                        <td>Maria Anders</td>
+                        <td>Germany</td>
+                      </tr>
+                      <tr>
+                        <td>Centro comercial Moctezuma</td>
+                        <td>Francisco Chang</td>
+                        <td>Mexico</td>
+                        <td>Francisco Chang</td>
+                        <td>Mexico</td>
+                      </tr>
+                      <tr>
+                          <td>Alfreds Futterkiste</td>
+                          <td>Maria Anders</td>
+                          <td>Germany</td>
+                          <td>Maria Anders</td>
+                          <td>Germany</td>
+                      </tr>
+                      <tr>
+                          <td>Centro comercial Moctezuma</td>
+                          <td>Francisco Chang</td>
+                          <td>Mexico</td>
+                          <td>Francisco Chang</td>
+                          <td>Mexico</td>
+                      </tr>
+                      <tr>
+                          <td>Alfreds Futterkiste</td>
+                          <td>Maria Anders</td>
+                          <td>Germany</td>
+                          <td>Maria Anders</td>
+                          <td>Germany</td>
+                      </tr>
+                      <tr>
+                          <td>Centro comercial Moctezuma</td>
+                          <td>Francisco Chang</td>
+                          <td>Mexico</td>
+                          <td>Francisco Chang</td>
+                          <td>Mexico</td>
+                      </tr>
+                </tbody>
 
                 
             </table>
-            <button class="siguiente">Siguiente</button>
+            <div class="divboton">
+                <button class="siguiente" id="siguientepantalla">Siguiente</button>   
+            </div>
+            
         </div>
     </div>
+
+    <div class="contenedor2" id="contenedorvuelos2">
+        <div class="reservar">
+            <table id="tablevuelos">
+                <thead>
+                    <tr>
+                        <th>Aerolinea</th>
+                        <th>Asientos<br>Disponibles</th>
+                        <th>Hora de<br>salida</th>
+                        <th>Hora de<br>llegada</th>
+                        <th>Precio por<br>boleto</th>
+                      </tr>
+                </thead>
+                
+                <tbody>
+                    <tr>
+                        <td>Alfreds Futterkiste</td>
+                        <td>Maria Anders</td>
+                        <td>Germany</td>
+                        <td>Maria Anders</td>
+                        <td>Germany</td>
+                      </tr>
+                      <tr>
+                        <td>Centro comercial Moctezuma</td>
+                        <td>Francisco Chang</td>
+                        <td>Mexico</td>
+                        <td>Francisco Chang</td>
+                        <td>Mexico</td>
+                      </tr>
+                      <tr>
+                          <td>Alfreds Futterkiste</td>
+                          <td>Maria Anders</td>
+                          <td>Germany</td>
+                          <td>Maria Anders</td>
+                          <td>Germany</td>
+                      </tr>
+                      <tr>
+                          <td>Centro comercial Moctezuma</td>
+                          <td>Francisco Chang</td>
+                          <td>Mexico</td>
+                          <td>Francisco Chang</td>
+                          <td>Mexico</td>
+                      </tr>
+                      <tr>
+                          <td>Alfreds Futterkiste</td>
+                          <td>Maria Anders</td>
+                          <td>Germany</td>
+                          <td>Maria Anders</td>
+                          <td>Germany</td>
+                      </tr>
+                      <tr>
+                          <td>Centro comercial Moctezuma</td>
+                          <td>Francisco Chang</td>
+                          <td>Mexico</td>
+                          <td>Francisco Chang</td>
+                          <td>Mexico</td>
+                      </tr>
+                </tbody>
+
+                
+            </table>
+            <div class="divboton2">
+                <button class="siguiente2" id="anterior" style="float: left;">Anterior</button> 
+                <button class="siguiente2" id="siguiente" style="float: right;">Siguiente</button>  
+            </div>
+        </div>
+    </div>
+
 
 </body>
 </html>

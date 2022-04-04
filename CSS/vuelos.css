@@ -113,6 +113,12 @@ body{
     cursor: pointer;
 }
 
+/*Contenedor de filtro y vuelos*/
+.contenedor{
+    /*display: none;*/
+}
+
+/*Contenedor de la parte de filtros*/
 .filtro{
     width: 20%;
     height: 30%;
@@ -124,6 +130,7 @@ body{
     padding: 10px 20px;
     border-radius: 10px;
 }
+
 
 input{
     display: block;
@@ -171,6 +178,7 @@ input{
     border-radius: 20px;
 }
 
+/*Contenedor de la tabla de viajes*/
 .vuelos{
     width: 60%;
     height: 80%;
@@ -188,7 +196,6 @@ table{
     text-align: left;
     width: 100%;
     border-spacing: 0px 10px;
-    /*border: 1px solid black;*/
 }
 
 td{
@@ -213,21 +220,66 @@ tr:nth-child(odd) {
     background-color: rgba(209, 183, 205, 0.8);
 }
 
+.divboton{
+    text-align: center;
+    height: 20%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
 .siguiente {
     width: 20%;
-    height: 7%;
+    height: 50%;
     border-radius: 7px;
     font-style: none;
     font-weight: bold;
     background-color: rgba(123, 255, 173,0.8);
     color: rgb(0, 0, 0);
     font-family: "Rubik", sans-serif;
-    display:block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 .siguiente:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(123, 255, 173);
+}
+
+/*Contenedor 2*/
+.contenedor2{
+    display: none;
+}
+
+.reservar{
+    width: 80%;
+    height: 80%;
+    background-color: rgba(126, 126, 126,0.5);
+    position: fixed;
+    left: calc(28% - 20%);
+    top: calc(43% - 30%);
+    border: 1px solid rgba(126, 126, 126,0.3);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.divboton2{
+    text-align: center;
+    height: 5%;
+    width: 100%;
+}
+
+.siguiente2 {
+    width: 20%;
+    height: 100%;
+    border-radius: 7px;
+    font-style: none;
+    font-weight: bold;
+    background-color: rgba(123, 255, 173,0.8);
+    color: rgb(0, 0, 0);
+    font-family: "Rubik", sans-serif;
+}
+
+.siguiente2:hover {
     color: rgb(0, 0, 0);
     background-color: rgb(123, 255, 173);
 }
