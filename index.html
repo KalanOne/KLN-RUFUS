@@ -8,6 +8,7 @@
   <title>KLN-RUFUS</title>
   <link rel="stylesheet" href="CSS/style.css" />
   <link rel="shortcut icon" href="IMG/airplane.png">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="JS/index.js"></script>
 </head>
 
@@ -34,26 +35,25 @@
     <div class="mascaraDark centrarText">
       <div class="centrarCont centarBene">
         <div class="beneficiosCarac">
-          <div>
-            <h1>Mi lista</h1>
+          <div class="aligEncBene">
+            <h1>Beneficios de comprar con nosotros</h1>
           </div>
           <div class="centrarX2">
             <ul class="alinearLista">
-              <li>Elemento de la lista</li>
-              <li>Elemento de la lista</li>
-              <li>Elemento de la lista</li>
+              <li>Mejores precios del mercado</li>
+              <li>Convenios con diversas aerolineas</li>
+              <li>Rapida compra</li>
             </ul>
           </div>
         </div>
         <div class="beneficiosCarac">
-          <div>
-            <h1>Mis lista</h1>
+          <div class="aligEncBene">
+            <h1>Seguridad</h1>
           </div>
           <div class="centrarX2">
             <ul class="alinearLista">
-              <li>Elemento de la lista</li>
-              <li>Elemento de la lista</li>
-              <li>Elemento de la lista</li>
+              <li>Reembolso con aerolinea directa</li>
+              <li>Cambios antes de 1 dia</li>
             </ul>
           </div>
         </div>
@@ -61,7 +61,51 @@
     </div>
   </section>
 
-  <div style="height: 100%; width: 50%; background-color: aquamarine;"></div>
+  <section id="faq">
+    <div class="mascaraDark">
+      <div class="pregunCentra">
+        <div class="faqs">
+          <div class="pregunta">
+            <h3>¿Cómo obtengo mi factura?</h3>
+          </div>
+          <div class="respuesta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi explicabo, repellendus
+            ducimus et error cumque vero fugit fugiat officiis nesciunt hic autem deserunt. Iusto sit itaque in, velit
+            perferendis praesentium?</div>
+        </div>
+        <div class="faqs">
+          <div class="pregunta">
+            <h3>Cambiar mi forma de pago</h3>
+          </div>
+          <div class="respuesta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi explicabo, repellendus
+            ducimus et error cumque vero fugit fugiat officiis nesciunt hic autem deserunt. Iusto sit itaque in, velit
+            perferendis praesentium?</div>
+        </div>
+        <div class="faqs">
+          <div class="pregunta">
+            <h3>¿Cómo actualizo los datos de Mi Cuenta?</h3>
+          </div>
+          <div class="respuesta">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi explicabo, repellendus
+            ducimus et error cumque vero fugit fugiat officiis nesciunt hic autem deserunt. Iusto sit itaque in, velit
+            perferendis praesentium?</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer id="piePag">
+    <div class="pregunCentra centrarText">
+      <div class="centrarX2">
+        <h1 class="textBienvenida salidaFoo">Gracias por visitarnos</h1>
+        <section class="buttons">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-google-plus"></a>
+          <a href="#" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+        </section>
+      </div>
+    </div>
+  </footer>
 
   <div class="mascDarkLogReg" id="ContenedorIniciarSesion">
     <div class="centrarMidWinLogin">
@@ -85,27 +129,27 @@
   <div class="mascDarkLogReg2" id="ContenedorRegistrar">
     <div class="centrarMidWinRegistro">
       <h1 class="h1Login">Registro</h1>
-        <form action="vuelos.html" method="get" id="Formregi">
-            <label for="nombre" class="labelLogin">Nombre</label>
-            <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" class="inpUsr">
+      <form action="vuelos.html" method="get" id="Formregi">
+        <label for="nombre" class="labelLogin">Nombre</label>
+        <input type="text" name="nombre" id="nombre" placeholder="Ingresa tu nombre" class="inpUsr">
 
-            <label for="Apa" class="labelLogin">Apellido Paterno</label>
-            <input type="text" name="Apa" id="Apa" placeholder="Ingresa tu apellido paterno" class="inpUsr">
+        <label for="Apa" class="labelLogin">Apellido Paterno</label>
+        <input type="text" name="Apa" id="Apa" placeholder="Ingresa tu apellido paterno" class="inpUsr">
 
-            <label for="Ama" class="labelLogin">Apellido Materno</label>
-            <input type="text" name="Ama" id="Ama" placeholder="Ingresa tu apellido materno" class="inpUsr">
+        <label for="Ama" class="labelLogin">Apellido Materno</label>
+        <input type="text" name="Ama" id="Ama" placeholder="Ingresa tu apellido materno" class="inpUsr">
 
-            <label for="Email" class="labelLogin">Email </label>
-            <input type="email" name="Email" id="Email" placeholder="Ingresa tu email" class="inpUsr">
+        <label for="Email" class="labelLogin">Email </label>
+        <input type="email" name="Email" id="Email" placeholder="Ingresa tu email" class="inpUsr">
 
-            <label for="Password" class="labelLogin">Contraseña</label>
-            <input type="password" name="Password" id="Password" placeholder="Ingresa tu password" class="inpPass">
+        <label for="Password" class="labelLogin">Contraseña</label>
+        <input type="password" name="Password" id="Password" placeholder="Ingresa tu password" class="inpPass">
 
-            <input type="submit" value="Registrar" class="inpSubm">
+        <input type="submit" value="Registrar" class="inpSubm">
 
-            <p><a href="#" class="linkLogin">Terminos y Condiciones</a></p><br>
-            <p><a href="#" class="linkLogin">¿Ya tienes cuenta?</a></p>
-        </form>
+        <p><a href="#" class="linkLogin">Terminos y Condiciones</a></p><br>
+        <p><a href="#" class="linkLogin">¿Ya tienes cuenta?</a></p>
+      </form>
     </div>
   </div>
 

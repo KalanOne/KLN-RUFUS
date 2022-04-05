@@ -231,7 +231,7 @@ body {
   color: white;
 }
 
-.mascDarkLogReg{
+.mascDarkLogReg {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -241,7 +241,7 @@ body {
   display: none;
 }
 
-.mascDarkLogReg2{
+.mascDarkLogReg2 {
   position: fixed;
   width: 100%;
   height: 100%;
@@ -249,4 +249,92 @@ body {
   top: 0;
   left: 0;
   display: none;
+}
+
+#faq {
+  width: 100%;
+  height: 100%;
+  background: url("../IMG/dudasBack.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.pregunCentra {
+  width: 90%;
+  height: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+}
+
+.faqs {
+  width: 25%;
+  height: 80%;
+  margin: auto;
+  background-color: rgba(184, 174, 193, 0.441);
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.pregunta {
+  width: 100%;
+  height: 20%;
+  text-align: justify;
+}
+
+.respuesta {
+  text-align: justify;
+}
+
+#piePag {
+  width: 100%;
+  height: 100%;
+  background: #16bffd; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #cb3066,
+    #16bffd
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #cb3066,
+    #16bffd
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.contFoo{
+  width: 100%;
+  text-align: center;
+}
+
+.buttons {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.buttons a {
+  text-decoration: none;
+  font-size: 28px;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  background: #314652;
+  color: #f1f1f1;
+  border-radius: 50%;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+  transition: all .4s ease-in-out;
+}
+
+.buttons a:hover {
+  transform: scale(1.2);
+}
+
+.salidaFoo{
+  margin-bottom: 100px;
+}
+
+.aligEncBene{
+  height: 70%;
 }
