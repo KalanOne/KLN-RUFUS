@@ -121,79 +121,23 @@ body {
     height: 100%;
 }
 
-/*Contenedor de la parte de filtros*/
-.filtro {
-    width: 20%;
-    height: 30%;
-    background-color: rgba(126, 126, 126, 0.5);
-    position: relative;
-    left: calc(22% - 20%);
-    top: calc(45% - 30%);
-    border: 1px solid rgba(126, 126, 126, 0.3);
-    padding: 10px 20px;
-    border-radius: 10px;
-    backdrop-filter: blur(5px);
-}
-
-
-input {
-    display: block;
-    margin: 20px 0px;
-    font-weight: bold;
-}
-
-::placeholder {
-    color: black;
-    font-weight: bold;
-}
-
-.inputtext {
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid black;
-    background: transparent;
-    outline: none;
-    height: 30px;
-    color: black;
-    font-size: 16px;
-
-}
-
-.inputdate {
-    width: 80%;
-    appearance: none;
-    color: black;
-    font-family: “Helvetica”, arial, sans-serif;
-    font-size: 18px;
-    background: transparent;
-    visibility: visible;
-    border-bottom: 1px solid black;
-    font-weight: bold;
-}
-
-.inputsubmit {
-    width: 50%;
-    margin-bottom: 20px;
-    border: none;
-    outline: none;
-    height: 25px;
-    color: white;
-    background-color: blueviolet;
-    border-radius: 20px;
-}
-
 /*Contenedor de la tabla de viajes*/
 .vuelos {
-    width: 60%;
+    width: 70%;
     height: 80%;
     background-color: rgba(126, 126, 126, 0.5);
     position: relative;
-    left: calc(50% - 20%);
-    top: calc(11% - 30%);
+    left: calc(83% - 70%);
+    top: calc(43% - 30%);
     border: 1px solid rgba(126, 126, 126, 0.3);
     padding: 10px 20px;
     border-radius: 10px;
     backdrop-filter: blur(5px);
+}
+
+.tituloh1 {
+    width: 100%;
+    text-align: center;
 }
 
 table {
@@ -224,50 +168,6 @@ tr:nth-child(even) {
 
 tr:nth-child(odd) {
     background-color: rgba(209, 183, 205, 0.8);
-}
-
-.siguiente {
-    width: 20%;
-    height: 5%;
-    position: absolute;
-    left: calc(60% - 20%);
-    top: calc(95% - 5%);
-    border-radius: 7px;
-    font-style: none;
-    font-weight: bold;
-    background-color: rgba(123, 255, 173, 0.8);
-    color: rgb(0, 0, 0);
-    font-family: "Rubik", sans-serif;
-}
-
-.siguiente:hover {
-    color: rgb(0, 0, 0);
-    background-color: rgb(123, 255, 173);
-}
-
-/*Contenedor 2*/
-.contenedor2 {
-    display: none;
-    width: 100%;
-    height: 100%;
-}
-
-.tituloh1 {
-    width: 100%;
-    text-align: center;
-}
-
-.reservar {
-    width: 80%;
-    height: 80%;
-    background-color: rgba(126, 126, 126, 0.5);
-    position: relative;
-    left: calc(28% - 20%);
-    top: calc(43% - 30%);
-    border: 1px solid rgba(126, 126, 126, 0.3);
-    padding: 10px 20px;
-    border-radius: 10px;
-    backdrop-filter: blur(5px);
 }
 
 .siguiente2 {

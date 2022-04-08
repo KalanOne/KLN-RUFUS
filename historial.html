@@ -5,13 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vuelos</title>
-    <link rel="stylesheet" href="CSS/vuelos.css" />
+    <title>Historial</title>
+    <link rel="stylesheet" href="CSS/historial.css" />
     <link rel="shortcut icon" href="IMG/airplane.png">
     <script src="JS/vuelos.js"></script>
 </head>
 
 <body>
+
     <header class="cabecera">
         <div class="cabeMid">
             <nav class="logoKLN">KLN-RUFUS</nav>
@@ -29,93 +30,18 @@
     </header>
 
     <div class="contenedor" id="contenedorvuelos1">
-
-        <div class="filtro">
-            <form action="#">
-                <input type="text" name="origen" id="origen" class="inputtext" placeholder="Ingresa el Origen">
-                <input type="text" name="destino" id="destino" class="inputtext" placeholder="Ingresa el Destino">
-                <input type="date" name="fecha" id="fecha" class="inputdate">
-                <p><input type="submit" value="Filtrar" class="inputsubmit"></p>
-            </form>
-        </div>
-
         <div class="vuelos">
-            <h1 class="tituloh1">Vuelos Disponibles</h1>
+            <h1 class="tituloh1">Historial de compra</h1>
             <table id="tablevuelos">
                 <thead>
                     <tr>
                         <th>Aerolinea</th>
-                        <th>Asientos<br>Disponibles</th>
+                        <th>Asientos<br>Comprados</th>
                         <th>Hora de<br>salida</th>
                         <th>Hora de<br>llegada</th>
                         <th>Precio por<br>boleto</th>
-                    </tr>
-                </thead>
-
-                <tbody>
-                    <tr>
-                        <td>Alfreds Futterkiste</td>
-                        <td>Maria Anders</td>
-                        <td>Germany</td>
-                        <td>Maria Anders</td>
-                        <td>Germany</td>
-                    </tr>
-                    <tr>
-                        <td>Centro comercial Moctezuma</td>
-                        <td>Francisco Chang</td>
-                        <td>Mexico</td>
-                        <td>Francisco Chang</td>
-                        <td>Mexico</td>
-                    </tr>
-                    <tr>
-                        <td>Alfreds Futterkiste</td>
-                        <td>Maria Anders</td>
-                        <td>Germany</td>
-                        <td>Maria Anders</td>
-                        <td>Germany</td>
-                    </tr>
-                    <tr>
-                        <td>Centro comercial Moctezuma</td>
-                        <td>Francisco Chang</td>
-                        <td>Mexico</td>
-                        <td>Francisco Chang</td>
-                        <td>Mexico</td>
-                    </tr>
-                    <tr>
-                        <td>Alfreds Futterkiste</td>
-                        <td>Maria Anders</td>
-                        <td>Germany</td>
-                        <td>Maria Anders</td>
-                        <td>Germany</td>
-                    </tr>
-                    <tr>
-                        <td>Centro comercial Moctezuma</td>
-                        <td>Francisco Chang</td>
-                        <td>Mexico</td>
-                        <td>Francisco Chang</td>
-                        <td>Mexico</td>
-                    </tr>
-                </tbody>
-
-
-            </table>
-            <button class="siguiente" id="siguientepantalla">Siguiente</button>
-        </div>
-    </div>
-
-    <div class="contenedor2" id="contenedorvuelos2">
-        <div class="reservar">
-            <h1 class="tituloh1">Comprar Boletos</h1>
-            <table id="tablevuelos">
-                <thead>
-                    <tr>
-                        <th>Aerolinea</th>
-                        <th>Asientos<br>Disponibles</th>
-                        <th>Hora de<br>salida</th>
-                        <th>Hora de<br>llegada</th>
-                        <th>Precio por<br>boleto</th>
-                        <th>Boletos a<br>comprar</th>
-                        <th>Total</th>
+                        <th>Origen</th>
+                        <th>Destino</th>
                     </tr>
                 </thead>
 
@@ -178,12 +104,12 @@
 
 
             </table>
+
             <button class="siguiente2" id="anterior">Anterior</button>
-            <button class="siguiente2" id="siguiente">Comprar</button>
+            <button class="siguiente2" id="siguiente">Siguiente</button>
+
         </div>
     </div>
-
-
 </body>
 
 </html>
