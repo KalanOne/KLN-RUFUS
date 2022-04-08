@@ -208,7 +208,6 @@ a {
 
 li {
     display: inline-block;
-    border: 1px solid rgba(0, 0, 0, 0.3);
     width: 15%;
     text-align: center;
     border-radius: 5px;
@@ -216,6 +215,5 @@ li {
 }
 
 li:hover {
-    border: 1px solid rgb(70, 70, 70);
     background-color: rgb(70, 70, 70);
 }
