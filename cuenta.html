@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi cuenta</title>
+    <link rel="stylesheet" href="CSS/cuenta.css">
+    <link rel="shortcut icon" href="IMG/airplane.png">
+</head>
+
+<body>
+    <header class="cabecera">
+        <div class="cabeMid">
+            <nav class="logoKLN">KLN-RUFUS</nav>
+            <div class="der">
+                <button class="cerrarsesion" id="idcerrarsesion" onclick="location.href='index.html'">Cerrar
+                    Sesion</button>
+                <p id="nombreusuario">KalanGod</p>
+            </div>
+        </div>
+        <div class="menu">
+            <button class="menubutton" onclick="location.href='vuelos.html'">Vuelos</button>
+            <button class="menubutton" onclick="location.href='historial.html'">Historial</button>
+            <button class="menubutton" onclick="location.href='cuenta.html'">Cuenta</button>
+        </div>
+    </header>
+
+    <div class="contenedor" id="contenedorinfo">
+        <div class="vuelos">
+            <h1 class="tituloh1">Mi cuenta</h1>
+            <form action="#" class="formularioCuenta" id="formCuenta">
+                <div class="inputGroup">
+                    <label for="nomInp">Nombre</label>
+                    <input type="text" placeholder="Nombre" id="nomInp">
+                    <label for="apePaInp">Apellido Paterno</label>
+                    <input type="text" placeholder="Apellido Paterno" id="apePaInp">
+                    <label for="apeMaInp">Apellido Materno</label>
+                    <input type="text" placeholder="Apellido Materno" id="apeMaInp">
+                </div>
+                <div class="inputGroup">
+                    <label for="correInp">Correo electronico</label>
+                    <input type="email" placeholder="Correo electronico" id="correInp">
+                    <label for="contraInp">Contraseña</label>
+                    <input type="password" placeholder="Contraseña" id="contraInp">
+                </div>
+                <div class="inputBtn">
+                    <input type="submit" value="Guardar">
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
